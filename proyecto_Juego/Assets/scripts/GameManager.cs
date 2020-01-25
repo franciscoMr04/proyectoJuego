@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
 
-        vidas = 5;
+        vidas = 3;
         heGanado = false;
         player = GameObject.Find("Player");
 

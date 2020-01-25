@@ -6,6 +6,9 @@ TagManager:
   tags:
   - bala
   - enemigo
+  - nivel
+  - Dinamita
+  - Vida
   layers:
   - Default
   - TransparentFX

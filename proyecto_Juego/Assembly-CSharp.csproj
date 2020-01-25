@@ -71,60 +71,63 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\scripts\bala.cs" />
-    <Compile Include="Assets\scripts\camera.cs" />
+    <Compile Include="Assets\scripts\Dash.cs" />
+    <Compile Include="Assets\scripts\DestruccionObjetos.cs" />
     <Compile Include="Assets\scripts\dinamita.cs" />
+    <Compile Include="Assets\scripts\disparo.cs" />
     <Compile Include="Assets\scripts\DisparoEnemigo.cs" />
     <Compile Include="Assets\scripts\EnemigoController.cs" />
+    <Compile Include="Assets\scripts\FollowCamera.cs" />
     <Compile Include="Assets\scripts\GameManager.cs" />
-    <Compile Include="Assets\scripts\Player\Dash.cs" />
-    <Compile Include="Assets\scripts\Player\disparo.cs" />
-    <Compile Include="Assets\scripts\Player\lanzardinamita.cs" />
-    <Compile Include="Assets\scripts\Player\Player.cs" />
-    <Compile Include="Assets\scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\scripts\Player\PlayerData.cs" />
-    <Compile Include="Assets\scripts\Player\PLayerMomevent.cs" />
-    <Compile Include="Assets\scripts\Player\VidaPlayer.cs" />
+    <Compile Include="Assets\scripts\lanzardinamita.cs" />
+    <Compile Include="Assets\scripts\Loot.cs" />
+    <Compile Include="Assets\scripts\Player.cs" />
+    <Compile Include="Assets\scripts\PlayerController.cs" />
+    <Compile Include="Assets\scripts\PlayerData.cs" />
+    <Compile Include="Assets\scripts\puntos.cs" />
+    <Compile Include="Assets\scripts\sceneChange.cs" />
     <Compile Include="Assets\scripts\smoothPosition.cs" />
+    <Compile Include="Assets\scripts\VidaPlayer.cs" />
     <Compile Include="Assets\scripts\Vidas.cs" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/martinezr/Documents/Dispositivos moviles/proyecto_Juego/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/fjmr0/OneDrive/Documentos/repos/proyectoJuego/proyecto_Juego/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
